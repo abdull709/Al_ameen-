@@ -1,10 +1,10 @@
 {
-  "name": "political-campaign-website",
+  "name": "al-ameen-islamic-propagation-center",
   "version": "1.0.0",
-  "description": "A modern, responsive political campaign website built with HTML, CSS, and JavaScript",
-  "main": "index.html",
+  "description": "Official website for Al'Ameen Islamic Propagation Centre - Building a Better Future Together",
+  "main": "server.js",
   "scripts": {
-    "start": "npx http-server . -p 3000 -o",
+    "start": "node server.js",
     "dev": "npx live-server --port=3000 --open=/",
     "build": "echo 'No build process needed for static site'",
     "test": "echo 'No tests specified'",
@@ -33,6 +33,7 @@
     "imagemin-webp": "^8.0.0"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "font-awesome": "^4.7.0"
   },
   "browserslist": [
@@ -42,10 +43,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/political-campaign-website.git"
+    "url": "https://github.com/abdull709/Al_ameen-.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/political-campaign-website/issues"
+    "url": "https://github.com/abdull709/Al_ameen-/issues"
   },
-  "homepage": "https://your-username.github.io/political-campaign-website"
+  "homepage": "https://abdull709.github.io/Al_ameen-"
 }
