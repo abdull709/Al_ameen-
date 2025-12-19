@@ -1,0 +1,51 @@
+{
+  "name": "political-campaign-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive political campaign website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'",
+    "lint": "npx htmlhint index.html && npx stylelint styles.css",
+    "optimize": "npx imagemin images/* --out-dir=images/optimized",
+    "deploy": "echo 'Add your deployment command here'"
+  },
+  "keywords": [
+    "political",
+    "campaign",
+    "website",
+    "responsive",
+    "mobile-first",
+    "election",
+    "democracy"
+  ],
+  "author": "Campaign Team",
+  "license": "MIT",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/political-campaign-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/political-campaign-website/issues"
+  },
+  "homepage": "https://your-username.github.io/political-campaign-website"
+}
